@@ -1,0 +1,1 @@
+Es posible crear en github un repository o un directorio donde tu puedes guardar y organizar todos tus datos, scrips, notas, outputs. Util para colaborar con otros ivestigadores que tendran acceso a tu trabajo en esta nube. Además es posible usar MOU como editor de notas
