@@ -1,0 +1,1 @@
+En el experimento de las estrellas expuestas a virus y no expuestas se ven diferencias en la expresion de genes a partir de un analisis realizado en R que entrega un plot que muestra genes que se expresan de manera significativamente distinta entre los grupos de tratamiento control y con virus
