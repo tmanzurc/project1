@@ -71,11 +71,13 @@ points(tmp.sig$baseMean, tmp.sig$log2FoldChange, pch=20, cex=0.45, col="red")
 abline(h=c(-1,1), col="blue")
 
 ### Crea la tabla para exportarla a excel
-write.table(tmp.sig, "./wd/Phel_DEGlist.tab", row.names = T)
+write.table(tmp.sig, "/Users/sr320/Desktop/ASI-rna-seq/output/Cgigas-DEGlist", row.names = T)
+
 ### Visualizar la tabla
-!head ./wd/Phel_DEGlist.tab
+head output/Cgigas-DEGlist 
 
-
+### Plot de fold change de los genes, loos que estan sobre 1 se expresan positivamente y los que están bajo uno negativamente... eso muestra la diferenciación entre los organismos pre y post calentamiento que son los 2 tratamientos.
+![image](/Users/alumnomatlab/Desktop/Rplot Cgigas.pdf)
 
 
 
